@@ -7,7 +7,7 @@ import CheckoutSteps from "../components/CheckoutSteps";
 
 export default function SchedualAppointScreen(props) {
   // NOTE currently setting the hard id later on make this fetch dynamically
-  const docId = "60d5f431950dac32006f2ab2 "; // fetch the doctor id dynamycally here
+  const docId = "60d5f431950dac32006f2ab2 "; // fetch the doctor id dynamically here
 
   const [slots, setSlots] = useState([]);
 
