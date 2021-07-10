@@ -1,5 +1,5 @@
 import express from "express";
-import Appointment from "../models/appointment";
+import Appointment from "../models/appointmentModel";
 
 const router = express.Router();
 router.post("/createslot/:docId", (req, res) => {
