@@ -1,6 +1,7 @@
 import http from "http";
 import { Server } from "socket.io";
 import express from "express";
+
 import mongoose from "mongoose";
 import dotenv from "dotenv";
 import path from "path";
@@ -10,6 +11,8 @@ import uploadRouter from "./routers/uploadRouter.js";
 import Cors from 'cors'
 dotenv.config();
 const app = express();
+
+
 app.use(express.json());
 app.use(Cors())
 app.use(express.urlencoded({ extended: true }));
@@ -127,3 +130,4 @@ console.log(`Serve at http://localhost:${port}`); });
 //app.listen(port, () => {
 //  console.log(`Serve at express`);
 //});
+export default Server;
